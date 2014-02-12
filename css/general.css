@@ -17,7 +17,6 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif; 
 }
@@ -44,7 +43,7 @@ header {
 }
 
 .logo { 
-    height: 4.2rem; 
+    height: 5.2rem; 
     width: auto; 
     background-color: saddlebrown; 
     padding: 1rem 40%; 
@@ -54,20 +53,11 @@ header {
     overflow: hidden; 
     background-image: url(../images/Image.ashx.jpg); 
     background-color: pink; 
-    background-repeat: no-repeat; 
-    background-position: center center; 
+    background-repeat: repeat; 
+    background-position: center; 
     background-size: 20rem; 
-} 
-
-h1 { 
-    margin: 5rem 1rem 6rem 3rem;  
-    font-weight: normal; 
-    font-size: 1rem; 
-    text-align: center; 
-    text-transform: lowercase; 
-    color: DeepPink;
-    padding: .1rem 0; 
-    background-color: pink;    
+    border: solid;
+    border-color: pink;
 } 
 
 figure { 
@@ -80,12 +70,66 @@ figcaption {
         padding: 1rem 18%; 
         background-color: pink; 
         font-weight: bold;
-        color: saddlebrown; 
+        color: deeppink; 
         text-align:center; 
+        font-family: Arial, Helvetica, sans-serif;
 }
 
 details { 
     margin:  0 1.5rem; 
 } 
 
-    
+h1 { 
+    font-weight: normal; 
+    text-align: center; 
+    text-transform: lowercase; 
+    background-color: pink;
+    padding: .25rem 0;
+    font-family: Georgia, Times, serif;  
+    font-size: 3.25rem; 
+    line-height: 3rem; 
+    margin: 4.25rem 0; 
+    text-shadow: .15rem .15rem .05rem rgba(0, 0, 0, .4); 
+    color: deeppink;
+} 
+
+h2 { 
+    font-size: 1.25rem; 
+    margin: 0 0 1.5rem; 
+    line-height: 1.75rem; 
+    border-top: solid .1rem; 
+    padding: .5rem 0 0; 
+    color: pink; 
+    text-align: center; 
+}
+
+sup { } 
+
+p { 
+    margin: 1rem; 
+} 
+
+ul { 
+    color: deeppink; 
+    line-height: 1.75rem;
+}  
+
+summary { 
+    color: saddlebrown; 
+    font-weight: bold;
+    font-style: oblique; 
+} 
+
+.featured { 
+   margin: 5% 2% .2rem;
+    background-position: center center; 
+    border: solid .35rem saddlebrown;
+    border-radius: 1rem;  
+} 
+
+footer { 
+    background-color: pink; 
+    line-height: 4rem; 
+    text-align:center; 
+    color: white; 
+}
